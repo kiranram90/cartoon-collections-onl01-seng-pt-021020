@@ -1,5 +1,10 @@
 def roll_call_dwarves# code an argument here
-  # Your code here
+  def find_the_cheese(array)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+    array.find do |type|
+    cheese_types.include?(type)
+  end 
+end
 end
 
 def summon_captain_planet# code an argument here
